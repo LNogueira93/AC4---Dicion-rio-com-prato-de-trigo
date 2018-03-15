@@ -1,4 +1,6 @@
 def conta_palavras(texto):
-    return{palavras:texto.count(palavras) for palavras in texto.split(' ')}
+    lista = []
+    lista = texto.split(' ')
+    return{palavras:lista.count(palavras) for palavras in texto.split(' ')}
     
-print(conta_palavras("três pratos de trigo para três tigres tristes"))
+print(conta_palavras("olha o sapo dentro do saco o saco com o sapo dentro o sapo batendo papo e o papo soltando o vento"))
