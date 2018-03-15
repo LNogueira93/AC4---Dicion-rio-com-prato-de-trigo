@@ -1,5 +1,4 @@
 def conta_palavras(texto):
-    lista = []
     lista = texto.split(' ')
     return{palavras:lista.count(palavras) for palavras in texto.split(' ')}
     
